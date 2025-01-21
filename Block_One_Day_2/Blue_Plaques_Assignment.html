@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <!--This title appears in the browser tab-->
+    <title>Leeds Blue Plaques</title>
+    <!--This is a link to the Leaflet stylesheet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<!--This is a relative path to the leaflet control search cascading style sheet-->
+	<link rel="stylesheet" href="leaflet-search-master\dist\leaflet-search.src.css"/>
+	<!--This is a link to the leaflet control geocoder-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+	<!--This is a link to the Leaflet JavaScript library-->
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<!--This is a relative path to the leaflet control search JavaScript file-->
+	<script src="leaflet-search-master\dist\leaflet-search.src.js"></script>
+	<!--This is a link to the leaflet geocoder plugin-->
+	<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- This is a link to the cascading style sheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--These are the links to the javascript files-->
+    <script type="text/javascript" src="Plaques.js"></script>
+    <script type="text/javascript" src="jscoord-1.1.1.js"></script>
+	<script type="text/javascript" src="Blue_Plaques_Assignment.js"></script>
+	</head>
+<body onload = initialize()>  
+    <!--The div which hosts mapdiv and aboutpage objects -->
+	<div id="container">
+	<!--The map div which hosts map object -->
+    <div id='mapdiv'></div>
+	<!--The div which hosts the leeds plaque content-->
+	<div id="aboutpage">
+	<!--This is the heading of the map div and about page-->
+	<h1 id="Header">ABOUT LEEDS BLUE PLAQUES</h1>
+	<!--This is paragraph one of the about page-->
+	<p id="paragraphone">According to an article written by <a href="https://welcometoleeds.co.uk/article/the-blue-plaque-marking-leeds-history/">
+	 Kathy Sharpe</a>, Blue Plaques are signs installed in public places to commemorate 
+	 a link between locations and historic persons or events, serving as historical markers.</p>
+	<!--This is paragraph one of the about page-->
+	<p id="paragraphtwo">Over the years, plaques with varying designs have been administered by different organisations across the UK.
+	 Among the plaque schemes, the London Blue Plaque scheme is believed to be the oldest scheme, and currently run by
+	 <a href="https://www.english-heritage.org.uk/">English Heritage.</a></p>
+	<!--This is paragraph three of the about page-it was defined by paragraph two margin-bottom-->
+	<p>Just like in London, Leeds has its own scheme, which is administered by
+	<a href="https://leedscivictrust.org.uk/whatwedo/heritage/blue-plaques/">Leeds Civic Trust.</a> The administering of this scheme is not surprising,
+	considering the rich and attractive built heritage of the city, which dates back to the time the area was a trading centre for cloth.
+	As the interactive map <b>(plaques searched by title)</b> on the left indicates, over 100 
+	<a href="https://en.wikipedia.org/wiki/List_of_Leeds_Civic_Trust_plaques">Plaques</a> have been erected in the city. Below is a picture taken from one of the commemoration events.
+	</p>
+	<!--This is one of the plaque commemoration images-->
+	<img src="Blue Plaque Commemoration.jpg" alt="Plaque" style="width:80%" id="plaque">
+	<!--This is the image caption-->
+	<p id="figcaption">Roger Daltrey and Pete Townsend unveil a Blue Plaque commemorating the recording of 
+	'The Who - Live At Leeds (video)' at Leeds University Refectory. [Source: The BBC]</p>
+	<!--This is paragraph four of the about page-->
+	<p id="paragraphfour">In Leeds, members of the public are involved in the nomination of blue plaques. As this
+	<a href="https://livingwithdying.leeds.ac.uk/2021/01/12/leeds-blue-plaques-commemorating-the-lives-of-leeds-people/">Blog</a>
+	alludes, public involvement is key to the scheme's transparency, and ensuring that the installed plaques reflect
+	the diversity of people and communities across the city.</p>
+	<!--This is paragraph five of the about page-it was defined by paragraph four margin-bottom-->
+	<p>In summary, the scheme is a good initiative at conserving the heritage of Leeds.</p>
+	</div>
+	</div>
+</body>

@@ -1,0 +1,77 @@
+/* Setting no space between body and mapdiv*/
+*{
+	margin:0;
+	padding:0;
+}
+/* Styling html*/
+html { 
+    position: relative;
+    height: 100%;
+	width:100%;
+}
+/* Styling the body*/
+body { 
+    margin:0;
+    position: relative;
+    min-height: 100vh;
+    background-color:white;
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+	font-size:15px;
+}
+/* Styling the div tags container*/
+#container {
+	display:flex;
+}
+/* Styling the mapdiv*/
+#mapdiv {
+    position: relative;
+	margin:0;
+    height:83vh;
+	width: 65vw;
+    border: thin solid black;
+	padding-top:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+	padding-left:80px;
+}
+#Header {
+	text-align:center;
+	color:white;
+	font-size:17px;
+	margin-bottom:5px;
+	background-color:blue;
+}
+
+#aboutpage {
+	height:80vh;
+	width:24vw;
+	text-align:justify;
+	font-size:13px;
+	font-family: Times New Roman;
+	color:black;
+    margin-left:6px;
+    margin-right:6px;	
+}
+#plaque {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#figcaption {
+	font-style:italic;
+    text-align:center;
+	font-size:8px;
+	margin-bottom:5px;
+}
+#paragraphone {
+	margin-bottom:5px;
+}
+#paragraphtwo {
+	margin-bottom:5px;
+}
+#paragraphfour {
+	margin-bottom:5px;
+}
