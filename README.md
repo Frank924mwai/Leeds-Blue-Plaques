@@ -1,0 +1,1 @@
+Blue Plaques are signs installed in public places to commemorate a link between locations and historic persons or events, serving as historical markers. This repository displays the locations of blue plaques in Leeds, England, United Kingdom.
